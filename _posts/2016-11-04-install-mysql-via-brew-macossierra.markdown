@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Install mysql, via homebrew, on a macOS Sierra"
+title:  "Install mysql, via homebrew, on macOS"
 date:   2016-11-04 13:48:15 +0000
 categories: osx
 ---
