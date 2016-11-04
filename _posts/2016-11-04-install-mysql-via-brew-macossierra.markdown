@@ -29,9 +29,9 @@ Then we simply prune old cellar packages, which should probably also clean up so
 
 By default, homebrew leverages [launchctl](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/launchctl.1.html) to manage the machine services, so let us then clean it up a bit first:
 
-    josealves:mysql/ $ launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist                                                                                                                [11:23:23]
+    josealves:mysql/ $ launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 
-    josealves:mysql/ $ rm ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist                                                                                                                                 [11:23:29]
+    josealves:mysql/ $ rm ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 
 And finally clean up any remaining errors or pid files from:
 
@@ -58,12 +58,12 @@ Then we initialize the daemon for the first time, adding a root user (with a tem
 
 Now, hopefully, we can start the server by simply running:
 
-    josealves:~/ $ mysql.server start                                                                                                                                                                      [11:35:01]
+    josealves:~/ $ mysql.server start
 
 
 The next step is to secure the mysql server (set a definitive root password, trigger root remote access, allow anonymous users, ...) by running their script at:
 
-    josealves:~/ $ mysql_secure_installation                                                                                                                                                               [11:35:40]
+    josealves:~/ $ mysql_secure_installation
 
 ## At your service
 
