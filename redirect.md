@@ -14,6 +14,9 @@ permalink: /redirecttrick
   </head>
   <body>
     Shazaam!
+    <script>
+      location.href = 'https://lola-x-novis.myshopify.com/';
+    </script>
   </body>
 </html>
 {% endraw %}
