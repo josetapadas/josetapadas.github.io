@@ -3,6 +3,8 @@ layout: none
 title: Sample facebook redirect
 permalink: /redirecttrick
 ---
+
+{% raw %}
 <html>
   <head>
     <title>fb-redirect-poc</title>
@@ -11,4 +13,5 @@ permalink: /redirecttrick
     Shazaam!
   </body>
 </html>
+{% endraw %}
 
