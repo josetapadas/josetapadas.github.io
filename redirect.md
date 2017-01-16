@@ -13,7 +13,6 @@ permalink: /redirecttrick
     <meta property="og:description" content="LOLA and Novis partnered to create a fun and stylish pouch to tote your tampons">
   </head>
   <body>
-    Shazaam!
     <script>
       location.href = 'https://lola-x-novis.myshopify.com/';
     </script>
