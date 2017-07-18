@@ -7,9 +7,9 @@ exclude: ['Rakefile']
 markdown: redcarpet
 
 # App Store
-appstore_url: https://itunes.apple.com/us/app/veggie-spotter/id1260051076
-appstore: <a href="https://itunes.apple.com/us/app/veggie-spotter/id1260051076" class="app-store" rel="external nofollow"><img src="/assets/app-store.svg" alt="Download on the App Store"></a>
-appstore_white: <a href="https://itunes.apple.com/us/app/veggie-spotter/id1260051076" class="app-store" rel="external nofollow"><img src="/assets/app-store-white.svg" alt="Download on the App Store"></a>
+appstore_url: https://itunes.apple.com/app/veggie-spotter/id1260051076
+appstore: <a href="https://itunes.apple.com/app/veggie-spotter/id1260051076" class="app-store" rel="external nofollow"><img src="/assets/app-store.svg" alt="Download on the App Store"></a>
+appstore_white: <a href="https://itunes.apple.com/app/veggie-spotter/id1260051076" class="app-store" rel="external nofollow"><img src="/assets/app-store-white.svg" alt="Download on the App Store"></a>
 
 # Screenshots
 screenshots:
