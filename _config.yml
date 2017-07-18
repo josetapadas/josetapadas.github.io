@@ -1,35 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# General
+name: Veggie Spotter
+tagline: Find vegetarian places near you!
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: the missing method
-email: jose.tapadas@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  scribblings and ramblings of a rubyist
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tapadasalves
-github_username: josetapadas
+# Jekyll
+exclude: ['Rakefile']
+markdown: redcarpet
 
-# Build settings
-markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-  - jekyll-seo-tag
-exclude:
-  - Gemfile
-  - Gemfile.lock
-twitter:
-  username: benbalter
+# App Store
+appstore_url: https://itunes.apple.com/app/id123456789
+appstore: <a href="https://itunes.apple.com/app/id123456789" class="app-store" rel="external nofollow"><img src="/assets/app-store.svg" alt="Download on the App Store"></a>
+appstore_white: <a href="https://itunes.apple.com/app/id123456789" class="app-store" rel="external nofollow"><img src="/assets/app-store-white.svg" alt="Download on the App Store"></a>
+
+# Screenshots
+screenshots:
+- screenshot01
+- screenshot02
+- screenshot03
+- screenshot04
+
+# Company Info
+company: José Tapadas Alves
+company_website: http://josetapadas.github.io
+
+# Emails
+email_press: jose.tapadas@gmail.com
+email_contact: jose.tapadas@gmail.com
+email_support: jose.tapadas@gmail.com
